@@ -33,8 +33,5 @@ namespace BibliotecaDigital.Models
         public int ClienteId { get; set; }
         [ForeignKey("ClienteId")]
         public Cliente Cliente { get; set; } 
-
-        [DataType(DataType.Date)]
-        public DateTime DataEmprestimo { get; set; }
     }
 }
